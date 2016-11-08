@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">anhnguyen-pset2</string>
+    <string name="firsttext">Welcome to Mad Libs! Its an intereactive story where you add words to!
+    You fill in a type of word, and once all the words are added, the story is ready!
+    The story is unknown, so the end result will be quite funny.
+
+    Press the button to get started!</string>
+    <string name="secondtext">Fill in the words to finish the story!</string>
+
+</resources>
