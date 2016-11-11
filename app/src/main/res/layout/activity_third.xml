@@ -10,4 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.anh.anhnguyen_pset2.ThirdActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/parsetext"
+        />
+
+    <Button
+        android:text="Show story!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b_read"
+        android:layout_alignParentBottom="true"/>
+
+
 </RelativeLayout>

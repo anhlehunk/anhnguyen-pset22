@@ -17,17 +17,35 @@
         android:textSize="30sp"
         android:id="@+id/textView2" />
 
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/placeCount"
+        android:layout_marginTop="30sp"
+        android:layout_below="@+id/textView2"/>
+
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="noun"
+        android:hint=""
         android:ems="10"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/placeCount"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="42dp"
         android:id="@+id/editText" />
+
+    <TextView
+        android:text=" "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/typetext"
+        android:layout_below="@+id/editText"/>
 
     <Button
         android:text="OK"
@@ -38,18 +56,10 @@
         android:layout_alignParentEnd="true"
         android:layout_marginRight="11dp"
         android:layout_marginEnd="11dp"
-        android:id="@+id/okbutton" />
+        android:id="@+id/okbutton"
+        android:onClick="addWord"/>
 
-    <Button
-        android:text="test"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/okbutton"
-        android:layout_alignStart="@+id/okbutton"
-        android:layout_marginBottom="132dp"
-        android:id="@+id/testbutton"
-        android:onClick="sendMessage"/>
+
 
 
 </RelativeLayout>
